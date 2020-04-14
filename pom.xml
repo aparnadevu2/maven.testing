@@ -15,10 +15,13 @@
  <repository>
     <id>maven.testing-release</id>
      <name>maven.testing-release</name>
+     <layout>default</layout>
     <url>http://localhost:8081/nexus/content/repositories/maven.testing-release</url>
   </repository>
   <snapshotRepository>
     <id>maven.testing-snapshot</id>
+     <name>maven.testing-snapshot</name> 
+      <layout>default</layout>
     <url>http://localhost:8081/nexus/content/repositories/maven.testing-snapshot</url>
   </snapshotRepository>
 </distributionManagement>
