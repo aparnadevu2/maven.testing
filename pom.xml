@@ -5,8 +5,8 @@
   <groupId>maven.testing</groupId>
   <artifactId>maven.testing</artifactId>
     <packaging>jar</packaging>
-  <version>0.0.1-SNAPSHOT</version>
-  <name>dummy</name>
+  <version>1.0-SNAPSHOT</version>
+  <name>maven.testing</name>
   <scm>
 <connection>scm:https://github.com/aparnadevu2/maven.testing.git/</connection>
 <developerConnection>scm:https://github.com/aparnadevu2/maven.testing.git/</developerConnection>
@@ -31,7 +31,7 @@
         <updatePolicy>never</updatePolicy>
       </releases>
       <snapshots>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
       </snapshots>
       <id>central</id>
       <name>Central Repository</name>
